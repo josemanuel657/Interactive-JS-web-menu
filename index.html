@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link type="text/css" rel="stylesheet" href="css/app.css" />
+  <title>Example</title>
+  <script src="js/touche-min.js" charset="utf-8"></script>
+  <script src="js/zepto.min.js" charset="utf-8"></script>
+  <script src="js/app.js" charset="utf-8"></script>
+</head>
+
+<body>
+
+<!------------------------------------------------Entry------------------------------------------------->
+  <div class="page active" data-page="entry">
+    <div class="kaonInteractive">
+      <p class="kaonInteractiveText">Kaon Interactive</p>
+      <div class="ball1"></div>
+      <div class="ball3"></div>
+      <div class="ball2"></div>
+      <div class="ball4"></div>
+    </div>
+    <div class="governmentIcon"></div>
+    <div class="government">
+      <p class="governmentText">Government</p>
+      <div class="button2" data-js-page="inner_1"></div>
+    </div>
+    <div class="middleLine"></div>
+    <div class="healthCareIcon"></div>
+    <div class="healthCare">
+      <p class="healthCareText">HealthCare</p>
+      <div class="button1" data-js-page="inner_1"></div>
+    </div>
+    <div class="background1">
+
+    </div>
+    <div class="background2">
+    </div>
+  </div>
+<!-----------------------------------------------/Entry------------------------------------------------->
+
+
+<!------------------------------------------------Inner_1----------------------------------------------->
+  <div class="page" data-page="inner_1">
+    <div class="page" data-page="inner_1_opacity">
+      <div class="page" data-page="inner_1_background"></div>
+    </div>
+    <div class="explore">
+      <span class="explore-text">Explore</span>
+    </div>
+    <div class="optionMenu">
+      <div class="first"></div>
+      <p data-page="option1">Option1</p>
+      <hr>
+      <p data-page="option2">Option2</p>
+      <hr>
+      <p data-page="option3">Option3</p>
+      <hr>
+      <p data-page="option4">Option4</p>
+      <div class="last"></div>
+    </div>
+    <div class="button3" data-js-page="entry"></div>
+  </div>
+  <!-----------------------------------------------/Inner_1------------------------------------------------->
+
+
+  <!-----------------------------------------------Inner_2-------------------------------------------------->
+  <div class="page " data-page="inner_2">
+    <div class="page" data-page="inner_2_opacity"></div>
+    <div class="optionA"> Option A</div>
+    <div class="optionB"> Option B</div>
+    <div class="button4" data-js-page="entry">
+    </div>
+  </div>
+
+  <!-----------------------------------------------/Inner_2-------------------------------------------------->
+</body>
+
+</html>
